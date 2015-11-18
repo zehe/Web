@@ -1,0 +1,47 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Example Domain</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  	
+  	
+  	
+  	<style >
+  		#drag {
+  			width:100px;
+  			height:100px;
+  			background-color:blue;
+  			margin-top:20px;
+  		}
+  		
+  		#size {
+  			width:100px;
+  			height:100px;
+  			background-color:red;
+  			margin-top:20px;
+  		}
+  	
+    </style>   
+     
+</head>
+
+<body>
+
+	<div id="drag"></div>
+	<div id="size"></div>
+	
+	<script>
+		$("#drag").draggable();
+		
+		$("#size").resizable();
+	</script>
+</body>
+</html>
